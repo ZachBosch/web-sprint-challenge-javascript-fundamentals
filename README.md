@@ -11,7 +11,7 @@ You are not allowed to collaborate during the sprint challenge.
 _You have **three hours** to complete this challenge. Plan your time accordingly._
 
 
-## Introduction
+### Introduction
 
 The index.js file contains all of your challenges. Please review it in full before answering the questions. If you complete the stretch goals please leave them in your file but commented out so that they do not affect the MVP tasks 
 
@@ -19,23 +19,31 @@ In meeting the minimum viable product (MVP) specifications listed below, you sho
 
 ### Commits
 
-Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your team lead as the evaluate your solution.
+Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your team lead as they evaluate your solution.
 
-## Interview Questions
+### Interview Questions
 ### (please edit this file and write your answer below each question. In addition, you may also review these questions with your mentor)
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+    .map automatically returns a new array and is good for converting data, it does not manipulate the original array. forEach iterates, without stopping, through each item in an array and does not return a new array.
 
 2. Explain the difference between a callback and a higher order function.
+    HO functions receive other functions (callbacks) as parameters. A callback is the function passed as an argument in HO functions.
 
 3. What is closure?
+    A function within a function, accessing data from the parent.
 
 4. Describe the four rules of the 'this' keyword.
+    -Window binding - Undesirable, occurs when we fail to give 'this' context.
+    -Implicit binding - Most common, applies to objects with methods. When invoked, look to the left of the dot to determine what 'this' is.
+    -Explicit binding - uses .call, .apply, and .bind to call the function. These allow you to explicitly state what the 'this' keyword is going to be in the function.
+    -New binding - uses the 'new' keyword to construct a new object that 'this' points to.
 
 5. Why do we need super() in an extended class?
+    super is what calls the properties of the class we're inheriting from.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
