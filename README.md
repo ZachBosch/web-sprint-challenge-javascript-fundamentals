@@ -19,7 +19,7 @@ In meeting the minimum viable product (MVP) specifications listed below, you sho
 
 ### Commits
 
-Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your team lead as the evaluate your solution.
+Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your team lead as they evaluate your solution.
 
 ### Interview Questions
 ### (please edit this file and write your answer below each question. In addition, you may also review these questions with your mentor)
@@ -43,7 +43,7 @@ Edit this document to include your answers after each question. Make sure to lea
     -New binding - uses the 'new' keyword to construct a new object that 'this' points to.
 
 5. Why do we need super() in an extended class?
-    super is what allows us to adopt the properties of the class we're inheriting from.
+    super is what calls the properties of the class we're inheriting from.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
