@@ -32,7 +32,6 @@ function summation(num) {
   }
   return sum;
 }
-console.log(summation(50));
 
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
 // Given this zoo data from around the United States, follow the instructions below. Use the specific array methods in the requests below to solve the problems.
@@ -123,8 +122,11 @@ function animalNames(zooAnimalsCb) {
   For example: ['jackal, asiatic', .....]
   */
 
-function lowerCaseNames(/*Your Code Here*/) {
-  /*Your Code Here*/
+function lowerCaseNames(zooAnimalsCb) {
+  const lowerNames = zooAnimalsCb.map(function (item) {
+    return item.animal_name.toLowerCase();
+  });
+  return lowerNames;
 }
 
 /* 🦁🦁🦁 Request 3: .filter() 🦁🦁🦁
@@ -132,8 +134,11 @@ function lowerCaseNames(/*Your Code Here*/) {
   Using lowPopulationAnimals use .filter() to create a new array of objects which contains only the animals with a population of less than 5.
   */
 
-function lowPopulationAnimals(/*Your Code Here*/) {
-  /*Your Code Here*/
+function lowPopulationAnimals(zooAnimalsCb) {
+  const lowPops = zooAnimalsCb.filter(function (item) {
+    return item.population < 5;
+  });
+  return lowPops;
 }
 
 /* 🦁🦁🦁 Request 4: .reduce() 🦁🦁🦁
@@ -142,8 +147,11 @@ function lowPopulationAnimals(/*Your Code Here*/) {
   Remember the reduce method takes two arguments: a callback (which itself takes two args - the accumulator and the item), and an initial value for the count.
   */
 
-function USApop(/*Your Code Here*/) {
-  /*Your Code Here*/
+function USApop(zooAnimalsCb) {
+  const totalPop = zooAnimalsCb.reduce(function (acc, item) {
+    return acc + item.population;
+  }, 0);
+  return totalPop;
 }
 
 // 🦁🦁🦁 Callbacks 🦁🦁🦁
