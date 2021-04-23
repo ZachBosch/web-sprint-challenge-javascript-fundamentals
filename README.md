@@ -11,7 +11,7 @@ You are not allowed to collaborate during the sprint challenge.
 _You have **three hours** to complete this challenge. Plan your time accordingly._
 
 
-## Introduction
+### Introduction
 
 The index.js file contains all of your challenges. Please review it in full before answering the questions. If you complete the stretch goals please leave them in your file but commented out so that they do not affect the MVP tasks 
 
@@ -21,7 +21,7 @@ In meeting the minimum viable product (MVP) specifications listed below, you sho
 
 Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your team lead as the evaluate your solution.
 
-## Interview Questions
+### Interview Questions
 ### (please edit this file and write your answer below each question. In addition, you may also review these questions with your mentor)
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
